@@ -1,6 +1,6 @@
-# SIC tool (GUI) by Duchuy Bui -- Latest version: V1.2.22 -- 30/06/2025 -- DB
+# SIC tool (GUI) -- Latest version: V1.2.22 -- 30/06/2025 -- DB
 
-A python program I designed to detect multiple interferences (Firewall/WAF/IDS/Load Balancer/CDN)
+A python program I designed to detect multiple interferences (Firewall/WAF/IDS/Load Balancer/CDN) <br />
 This is the GUI version of the my original tool - **NOW** has a docker release.
 
 # Features:  
