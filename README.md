@@ -72,18 +72,24 @@ This is the GUI version of the my original tool - **NOW** has a docker release.
 - ✅**Modded**: The layout of the buttons so the run scan is bigger and we can compensate for the newly designed detailed log viewer.
 
 # To-Do List - next release
-- Resolve some rate limit logic (looking at headers like x-ws-ratelimit-limit: 1000, x-ws-ratelimit-remaining: 999)
-- Set a hard limit to local rate limit to 1000, unless you set a flag.
-- Allow user to set the limit for HTTP flood test.
-- Error relating to [_tkinter.TclError: grab failed: another application has grab].
-- Include more filters in the Viewed detailed logs like payload tests and more.
-- Fix messaging around the ping test. 
-- Fix logs not being outputted on docker.
-- Modify the summary popup - for the grouped status, it can be confusing.
-- Modify the status messages - either all of them have fixed sizes or limit the messaging.
-- Tooltip popup that appears in each option.
-- Unselecting SSH tests should disable other options.
-- Add multiple ports to run the port state polling against.
+- [cURL Test] Resolve some rate limit logic (looking at headers like x-ws-ratelimit-limit: 1000, x-ws-ratelimit-remaining: 999)
+- [SSH Rate Limit Test] Set a hard limit to local rate limit to 1000, unless you set a flag.
+- [SSH Rate Limit Test] Allow user to set the limit for HTTP flood test.
+- [Modify Commands] Error relating to [_tkinter.TclError: grab failed: another application has grab].
+- [View Detailed logger] Include more filters in the Viewed detailed logs like payload tests and more.
+- [Ping Test] Fix messaging around the ping test. 
+- [Logs] Fix logs not being outputted on docker.
+- [View Scan Summary] Modify the summary popup - for the grouped status, it can be confusing.
+- [View Scan Summary] Modify the status messages - either all of them have fixed sizes or limit the messaging.
+- [General] Tooltip popup that appears in each option.
+- [General] Unselecting SSH tests should disable other options.
+- [Local Rate limit Test] Add multiple ports to run the port state polling against.
 - [Modify custom commands button] (pluma:9): dbind-WARNING **: 08:53:31.084: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 - [Stop button] Investigate the delay with "stopping..."
 - [Logs] Error creating log file at /app/lib/library.zip/logs/scan_results_sandbox_clubwise_com_20250709_085819.log: [Errno 20] Not a directory: '/app/lib/library.zip/logs'
+- [Expanding buttons] Idea is possibly replacing the modify commands to an expansive option instead.
+- [Customise banner] Bring this back.
+- [About Me Pop-up] the scroll is not immediately scrollable with the mouse roller.
+- [About me Pop-up] Will need to adapt the default size (make larger).
+- [Grouped Settigs] an option to expand the view of the options.
+- [SSH Hub IP] Modify this to be a dropdown menu of which hub instead.
