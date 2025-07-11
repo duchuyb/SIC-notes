@@ -91,5 +91,6 @@ This is the GUI version of the my original tool - **NOW** has a docker release.
 - [Customise banner] Bring this back.
 - [About Me Pop-up] the scroll is not immediately scrollable with the mouse roller.
 - [About me Pop-up] Will need to adapt the default size (make larger).
-- [Grouped Settigs] an option to expand the view of the options.
+- [Grouped Settings] an option to expand the view of the options.
 - [SSH Hub IP] Modify this to be a dropdown menu of which hub instead.
+- [Targets website option] Copying and pasting doesn't replace the entire text
