@@ -93,4 +93,5 @@ This is the GUI version of the my original tool - **NOW** has a docker release.
 - [About me Pop-up] Will need to adapt the default size (make larger).
 - [Grouped Settings] an option to expand the view of the options.
 - [SSH Hub IP] Modify this to be a dropdown menu of which hub instead.
-- [Targets website option] Copying and pasting doesn't replace the entire text
+- [Targets website option] Copying and pasting doesn't replace the entire text.
+- [NMAP local and SSH) - can sometimes get stuck. 
